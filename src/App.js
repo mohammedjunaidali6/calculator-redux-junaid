@@ -12,6 +12,8 @@ function App(props) {
       <Button className="btn2" onClick={()=> props.decreaseCounter()}>Subtraction</Button><br/><br/>
       <Button className="btn3" onClick={()=> props.multiplyCounter()}>Multiply</Button><br/><br/>
       <Button className="btn4" onClick={()=> props.divisionCounter()}>Division</Button><br/><br/>
+
+
     </div>
   );
 }

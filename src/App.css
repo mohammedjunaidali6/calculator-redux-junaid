@@ -11,31 +11,8 @@
   height: 40vmin;
   pointer-events: none;
 }
-h3 {
-  margin-right: 43px;
-  padding-top: 35px;
-  color:whitesmoke;
-}
-.btn1{
-  margin-right: 200px;
-  margin-top: 20px;
-}
-.btn2{
-  margin-left: 200px;
-  margin-top: 20px;
-}
-button.btn2.btn.btn-primary {
-  margin-top: -114px;
-  margin-right: 100px;
-}
-button.btn3.btn.btn-primary {
-  margin-right: 209px;
-  margin-top: -95px;
-}
-button.btn4.btn.btn-primary {
-  margin-left: 83px;
-    margin-top: -189px;
-}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

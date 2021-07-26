@@ -1,9 +1,12 @@
+import { addReducer,subReducer, ADD_KEY, SUB_KEY, MUL_KEY, mulReducer, DIV_KEY, divReducer } from "./addRedux/addReducer";
 import { combineReducers } from "redux";
 
-import counterReducer from './Counter/counter.reducer';
-
-const rootReducer = combineReducers({
-    counter: counterReducer,
+let rootReducer = combineReducers ({
+    [ADD_KEY]: addReducer,
+    [SUB_KEY]: subReducer,
+    // [MUL_KEY]: mulReducer,
+    // [DIV_KEY]: divReducer,
+    
 })
 
-export default rootReducer;
+export {rootReducer}
